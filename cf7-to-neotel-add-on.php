@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/devacid/cf7-to-neotel-add-on
  * Description: This plugin enable Neotel integration with Contact Form 7 forms.
  * Author: devAcid
- * Version: 1.0.0
+ * Version: 1.0.2
  * Author URI: https://devacid.xyz/
  * GitHub Plugin URI: https://github.com/devacid/cf7-to-neotel-add-on
  * PREFIX: cf7ton (CF7 to Neotel Add-on)
@@ -34,7 +34,8 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
     'cf7-to-neotel-add-on'
 );
 
-//Set update by releases
+// Configurar para usar tags
+$myUpdateChecker->setBranch('main');
 $myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 //Optional: If you're using a private repository, specify the access token like this:

@@ -4,7 +4,6 @@
 This plugin integrate Neotel with Contact Form 7 forms. 
 
 
-
 ## Installation
 
 Download and copy folder 'cf7-to-neotel-add-on' in  'wp-content/plugins'
@@ -14,9 +13,6 @@ Download and copy folder 'cf7-to-neotel-add-on' in  'wp-content/plugins'
 
 Once installed and activated, each CF7 form will have a separate settings section where you can add Neotel form credentials. i.e, API Key, Form ID, Form Fields, etc.
 
-Once the plugin is activated you will have the option to enable/disable the form integration. In enabled mode, the status code and response from Neotel will be stored for the last form submission so you can debug if there are any issues.
-
-Note: This plugin uses the PHP library cURL. Please make sure that the cURL library is enabled on your server.
 ## FAQ
 
 #### What details do I need to start using CF7 form with Neotel Forms?
